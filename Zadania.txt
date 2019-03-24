@@ -1,0 +1,26 @@
+Zadanie 3.1: Stwórz klase szablonowa ktora w konstruktorze bedzie 
+przyjmowaæ 2 argumenty liczbowe tego samego typu i przypisze je 
+do pol o nazwach a i b. Nastêpnie stwórz metode "Multiply" ,która wypisze
+wynik mno¿enia tych 2 liczb przez siebie w konsoli
+
+	Zadanie 3.2: Dodaj odpowiednia funkcjonalnoœæ (Podpowiedz: wzorzec szczego³owy) tak aby po wpisaniu dwoch
+	lañcuchów znaków (char*) funkcjia wypisywa³a dlugoœæ pierwszego ³ancucha pomnozon¹ przez d³ugoœæ drugiego ³añcucha 
+
+	Zadanie 3.3: Stworz nowa klase taka aby mog³a przyjmowaæ 2 argumenty o ró¿nych typach liczb
+	(np. double * int),zainplementuj funkcje "Multiply", wypisz wynik dzia³ania w konsoli.
+	Wywo³anie: mojaKlasa<int,double> nazwa_klasy(2,2.50);
+
+
+Zadanie 4: Dostosuj funckje "readFromFile" w taki sposób aby poprawnie wczytywala obiekty z pliku User.txt oraz Car.txt i wypisywa³aje na konsoli
+Wywo³anie:
+	readList<Car>("Car.txt");
+	readList<User>("User.txt");
+
+
+
+
+Zadanie 5: Dodaj do klasy Contener szablon funkcjie odpowiedzialnej za dodawanie elementu o konkretnym typie do
+odpowiedniego pola ( uzyj typeid() ) oraz wyswietlajaca kompunikat jakiego typu element dodalismy i aktualna sume elementow
+Wywo³anie:
+	contener.addElement<int>(5);
+	contener.addElement<double>(5.23);
