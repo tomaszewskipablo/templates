@@ -28,3 +28,29 @@
 
  2.3: Napisz funkcję, w której przekażesz jako pierwszy argument referencję do zmiennej, która przechowuje liczbę, a jako drugi argument wartość o ile przekazana liczba ma zostać zinkrementowana
  tj. `zwieksz<double>(a, 8.1)` gdzie `double a = 5`, zmieni wartosc `a = 13.1`
+
+## Zadanie 3
+3.1: Stwórz klase szablonowa ktora w konstruktorze bedzie 
+przyjmować 2 argumenty liczbowe tego samego typu i przypisze je 
+do pol o nazwach a i b. Następnie stwórz metode "Multiply" ,która wypisze
+wynik mnożenia tych 2 liczb przez siebie w konsoli
+
+3.2: Dodaj odpowiednia funkcjonalność (Podpowiedz: wzorzec szczegołowy) tak aby po wpisaniu dwoch
+lańcuchów znaków (char*) funkcjia wypisywała dlugość pierwszego łancucha pomnozoną przez długość drugiego łańcucha 
+
+3.3: Stworz nowa klase taka aby mogła przyjmować 2 argumenty o różnych typach liczb
+(np. double * int),zainplementuj funkcje "Multiply", wypisz wynik działania w konsoli.
+Wywołanie: `mojaKlasa<int,double> nazwa_klasy(2,2.50);`
+
+## Zadanie 4
+4: Dostosuj funckje "readFromFile" w taki sposób aby poprawnie wczytywala obiekty z pliku User.txt oraz Car.txt i wypisywałaje na konsoli
+`Wywołanie:
+	readList<Car>("Car.txt");
+	readList<User>("User.txt");`
+  
+## Zadanie 5
+5: Dodaj do klasy Contener szablon funkcjie odpowiedzialnej za dodawanie elementu o konkretnym typie do
+odpowiedniego pola ( uzyj typeid() ) oraz wyswietlajaca kompunikat jakiego typu element dodalismy i aktualna sume elementow
+`Wywołanie:
+	contener.addElement<int>(5);
+	contener.addElement<double>(5.23);`
