@@ -13,41 +13,25 @@
 // ma zostac zinkrementowana
 // tj. zwieksz<double>(a, 8.1) gdzie double a = 5, zmieni wartosc a na 13.1
 
+// 2.2 silnia powinna cos zwracac wiec nie jest void (nalezy zmienic)
 
 #include <iostream>
 #include <string>
 
-template<typename Typ>
-void zamien(Typ &a, Typ &b)
+
+void zamien()
 {
-	Typ temp = a;
-	a = b;
-	b = temp;
+
 }
 
-template<typename Typ>
-Typ silnia(Typ a, Typ b)
+void silnia()
 {
-	int silniaZ = int(a + b);
-	Typ wynik = 1;
-	if (silniaZ < 0)
-	{
-		std::cout << "Argument musi byc liczba naturalna" << std::endl;
-		return -1;
-	}
-	else
-	{
-		for (int i = 1; i <= silniaZ; i++)
-		{
-			wynik = wynik * i;
-		}
-	}
+	
 }
 
-template<typename Typ>
-void zwieksz(Typ &a, const Typ b)
+void zwieksz()
 {
-	a += b;
+
 }
 
 int main()
