@@ -59,13 +59,13 @@ public:
 	};
 };
 
-template <class T>
+
 void readList(std::string nazwa) {
 	fstream plik;
 	plik.open(nazwa, ios::in);
 
 	if (plik.good()) {
-		T element;
+		//...//
 		while (plik >> element) {
 			std::cout << element;
 		}
