@@ -17,50 +17,30 @@
 #include <iostream>
 #include <string.h>
 
-template<class T>
-class Math {
-private:
-	T a;
-	T b;
-public:
-	Math(T a, T b) {
-		this->a = a;
-		this->b = b;
-	}
-	void Mulitiply() {
-		std::cout << a * b << std::endl;
-	}
-};
+//Do Zadania 3.1
+// class Math {
 
-template<>
-class Math<char*> {
-private:
-	char* a;
-	char* b;
-public:
-	Math(char* a, char* b) {
-		this->a = a;
-		this->b = b;
-	}
-	void Mulitiply() {
-		std::cout << strlen(a) * strlen(b) << std::endl;
-	}
-};
+// };
 
-template<class T,class K>
-class Math2 {
-private:
-	T a;
-	K b;
-public:
-	Math2(T a, K b) {
-		this->a = a;
-		this->b = b;
-	}
-	void Mulitiply() {
-		std::cout << a * b << std::endl;
-	}
-};
+//Do Zadania 3.2
+// class Math<> {
+
+// };
+
+//Do Zadania 3.3
+// class Math2 {
+// private:
+// 	T a;
+// 	K b;
+// public:
+// 	Math2( /*WPISZ TU COS*/ ) {
+// 		this->a = a;
+// 		this->b = b;
+// 	}
+// 	void Mulitiply() {
+// 		std::cout << a * b << std::endl;
+// 	}
+// };
 
 int main()
 {
