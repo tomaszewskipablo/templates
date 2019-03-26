@@ -27,14 +27,6 @@ void wyswietlSume(int a, int b)
 	std::cout << "Razem tworza " << wynik << std::endl;
 }
 
-template<typename TypGlowny, typename TypPoboczny>
-void wyswietlSumeZRzutowaniem(TypGlowny a, TypPoboczny b)
-{
-	TypGlowny wynik = a + TypGlowny(b);
-	std::cout << "Wprowadziles " << a << " i " << b << std::endl;
-	std::cout << "Razem tworza " << wynik << std::endl;
-}
-
 int main()
 {
 	int a = 7, b = 10;
